@@ -247,7 +247,7 @@ export const mockAvailability: Availability[] = [
 
 // Helper functions to get mock data
 export const getMesses = async (filters?: {
-  distance?: number
+  distance?: string
   mealType?: string
   priceRange?: string
   foodType?: string
